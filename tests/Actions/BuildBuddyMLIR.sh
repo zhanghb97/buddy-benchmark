@@ -1,4 +1,4 @@
-git clone git@github.com:buddy-compiler/buddy-mlir.git
+git clone https://github.com/buddy-compiler/buddy-mlir.git
 cd buddy-mlir
 git submodule update --init
 mkdir llvm/build
