@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: build opencv
       run: bash ./tests/Actions/BuildOpenCV.sh
-    # - name: build buddy-mlir
-    #   run: bash ./tests/Actions/BuildBuddyMLIR.sh
+    - name: build buddy-mlir
+      run: bash ./tests/Actions/BuildBuddyMLIR.sh
