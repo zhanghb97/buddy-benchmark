@@ -14,7 +14,7 @@ mkdir build
 cmake -G Ninja .. \
     -DMLIR_DIR=$PWD/../llvm/build/lib/cmake/mlir \
     -DLLVM_DIR=$PWD/../llvm/build/lib/cmake/llvm \
-    -DOpenCV_DIR=$PWD/../../opencv/build/ \
+    -DOpenCV_DIR=$PWD/../tests/Actions/opencv/build/ \
     -DLLVM_ENABLE_ASSERTIONS=ON \
     -DCMAKE_BUILD_TYPE=RELEASE
 ninja check-buddy
