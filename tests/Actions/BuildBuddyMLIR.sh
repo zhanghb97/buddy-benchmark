@@ -11,6 +11,8 @@ cmake -G Ninja ../llvm \
 ninja
 cd ../..
 mkdir build
+cd build
+pwd
 cmake -G Ninja .. \
     -DMLIR_DIR=$PWD/../llvm/build/lib/cmake/mlir \
     -DLLVM_DIR=$PWD/../llvm/build/lib/cmake/llvm \
