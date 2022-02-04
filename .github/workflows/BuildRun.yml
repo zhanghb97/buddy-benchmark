@@ -18,3 +18,5 @@ jobs:
       run: bash ./tests/Actions/BuildOpenCV.sh
     - name: build buddy-mlir
       run: bash ./tests/Actions/BuildBuddyMLIR.sh
+    - name: build buddy-benchmark
+      run: bash ./tests/Actions/BuildBuddyBenchmark.sh
